@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Pacifico&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#main
+{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#main .container
+{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#main2
+{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#main2 .container
+{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#main2 .container #item1
+{
+    width: 50%;
+}
+#main2 .container #item2
+{
+    background-color: #0097e6;
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#main .container #item1
+{
+    width: 50%;
+}
+#main .container #item2
+{
+    background-color: #00a8ff;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#item1 form
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 100px;
+}
+#item1 .signi
+{
+    position: absolute;
+    text-indent: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#item1 form label
+{
+    display: grid;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#item2 img
+{
+    height: 300px;
+    width: 300px;
+}
+#btn
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+}
+#btn:hover
+{
+    background-color: #0097e6;
+    transition: all 0.2s ease-in-out;
+}
+#btn:hover i
+{
+    color: white;
+}
+i
+{
+    font-size: 20px;
+}
+input
+{
+    height: 35px;
+    width: 350px;
+    border: 1px solid black;
+    caret-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+input:user-invalid
+{
+    border-color: red;
+}
+input:user-valid
+{
+    border-color: greenyellow;
+}
+input:focus
+{
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+[data-tab-content]
+{
+    display: none;
+}
+.active[data-tab-content]
+{
+    display: grid;
+}
+#button #btn2
+{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+#button #btn2:hover
+{
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+#button #btn3
+{
+    height: 40px;
+    width: 100px;
+    border: 2px solid #0097e6;
+    color: #0097e6;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+#button #btn3:hover
+{
+    background-color: #0097e6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
