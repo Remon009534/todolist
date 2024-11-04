@@ -13,6 +13,10 @@ body.dark-theme
 {
     background-color: #232342;
 }
+button
+{
+    cursor: pointer;
+}
 header
 {
     padding: 30px;
